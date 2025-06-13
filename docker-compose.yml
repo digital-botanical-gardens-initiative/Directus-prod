@@ -21,7 +21,7 @@ services:
 
   directus:
     image: directus/directus:latest
-    restart: always
+    restart: no
     ports:
       - 8056:8055
     volumes:
